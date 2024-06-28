@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "demo100"
+  annotations:
+    github.com/project-slug: hirveakshata/aws-ec2-workflow #name of the terraform repo
+    backstage.io/techdocs-ref: dir:.
+  title: "demo100"
+  description: 
+spec:
+  type: Infrastructure service
+  owner: user:guest
+  lifecycle: "Experimental"
